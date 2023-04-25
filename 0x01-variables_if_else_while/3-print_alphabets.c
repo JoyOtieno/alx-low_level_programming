@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: Uses putchar to print lower and upper case alph.
- * Return 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
