@@ -8,7 +8,7 @@ int main(void)
 {
 	int m;
 
-	while (m <= 10)
+	while (m < 10)
 	{
 		printf("%d", m);
 		m++;
