@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'putchar to print lower and upper case letters using ASCII decimal values'
+ * Description: 'putchar to print lower and upper case alph'
  * Return 0 (Success)
  */
 int main(void)
