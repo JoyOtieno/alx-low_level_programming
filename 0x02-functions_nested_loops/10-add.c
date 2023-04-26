@@ -5,7 +5,7 @@
  * @n: Second number to be added
  * Return: The sum of m and n
  */
-int add(int m, int n);
+int add(int m, int n)
 {
 	int l;
 
