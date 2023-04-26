@@ -4,7 +4,7 @@
  * @m: Integer input
  * Return: Absolute value of integer
  */
-int _abs(int m);
+int _abs(int m)
 {
 	if (m >= 0)
 	{
