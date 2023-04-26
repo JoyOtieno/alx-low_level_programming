@@ -3,7 +3,7 @@
  * jack_bauer - Prints every minute of jack bauer
  * Description: Print putcharr followed by line.
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int hour;
 	int min;
