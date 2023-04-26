@@ -2,9 +2,9 @@
 /**
  * times_table - Prints times table nine times
  */
-void times_table(void);
+void times_table(void)
 {
-	int num, multiplier, product
+	int num, multiplier, product;
 
 	for (num = 0; num < 10; num++)
 
@@ -24,9 +24,9 @@ void times_table(void);
 			else
 			{
 				_putchar((product / 10) + '0');
-				_putcha((product % 10) + '0');
+				_putchar((product % 10) + '0');
 			}
-			if (j == 9)
+			if (multiplier == 9)
 			{
 				_putchar('\n');
 			}
