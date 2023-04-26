@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: Print lower alphabets followed by line.
- * Return: 0 (Success)
+ * print_alphabet - Prints small letter
  */
 void print_alphabet(void)
 {
