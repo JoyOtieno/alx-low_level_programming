@@ -4,7 +4,7 @@
  * @c: The character we will check.
  * Return: 0 (Success)
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if ((c > 96 && c < 123) || (c > 64 && c < 91))
 	{
