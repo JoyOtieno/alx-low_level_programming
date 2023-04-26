@@ -4,9 +4,9 @@
  * @m: Integer we will extract last number from
  * Return: 0 (Success)
  */
-int print_last_digit(int m);
+int print_last_digit(int m)
 {
-	int ld
+	int ld;
 	ld = m % 10;
 
 	if (ld < 0)
@@ -16,7 +16,7 @@ int print_last_digit(int m);
 	}
 	else
 	{
-		putchar(ld +'0');
+		_putchar(ld +'0');
 		return (ld);
 	}
 }
