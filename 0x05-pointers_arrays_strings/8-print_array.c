@@ -14,6 +14,7 @@ void print_array(int *a, int n)
 		if (elements_num != (n - 1))
 		{
 			printf(",");
+			printf(" ");
 		}
 	}
 	putchar('\n');
