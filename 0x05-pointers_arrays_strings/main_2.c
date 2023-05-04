@@ -1,14 +1,15 @@
 #include <stdio.h>
-#include "main.h"
+
+void rev_string(char *);
 
 /**
- * rev_string - Function that reverses a string
- * @s: string to reverse
- * Return: nothing
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-void rev_string(char *s)
+int main(void)
 {
-	char s[1] = "";
+	char s[1] = " ";
 
 	printf("%s\n", s);
 	rev_string(s);
