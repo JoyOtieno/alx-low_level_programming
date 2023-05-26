@@ -11,7 +11,7 @@
 void print_all(const char * const format, ...)
 {
 	int t = 0;
-	char *str, *sp = "";
+	char *str, *sp = " ";
 
 	va_list nums;
 
@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 					t++;
 					continue;
 			}
-			sp = ",";
+			sp = ", ";
 			t++;
 		}
 	}
