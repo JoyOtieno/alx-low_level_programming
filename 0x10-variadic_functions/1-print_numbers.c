@@ -5,7 +5,6 @@
 *print_numbers - Function to prints nums followed by a new line
 *@separator: string to print
 *@n: argument count
-*Return: nothing
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
